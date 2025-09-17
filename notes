@@ -1,0 +1,22 @@
+why each library is needed:
+	•	pandas, numpy → data wrangling + math.
+	•	yfinance → fetch stock prices.
+	•	newsapi-python → fetch news headlines.
+	•	scikit-learn, xgboost → ML models for prediction.
+	•	transformers, torch, sentence-transformers → NLP models like FinBERT.
+	•	streamlit → simple dashboard/UI.
+	•	matplotlib → visualizations (charts).
+
+market-analyzer/
+│── venv/                  # virtual environment (ignored in .gitignore)
+│── data/                  # raw and processed data
+│   └── __init__.py
+│── models/                # ML/NLP models
+│   └── __init__.py
+│── dashboard/             # Streamlit dashboard files
+│   └── __init__.py
+│── utils/                 # helper functions
+│   └── __init__.py
+│── main.py                # entry point (run pipeline)
+│── requirements.txt       # list of dependencies
+│── README.md              # project overview for GitHub
